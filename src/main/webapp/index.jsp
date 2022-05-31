@@ -4,7 +4,7 @@
 <title> Java Simple Login Web App</title> </head> 
 
 
-<body bgcolor="#03ac13"> 
+<body bgcolor="#bfe6ff"> 
 
 <form method="post" action="login.jsp"> 
 <center> 

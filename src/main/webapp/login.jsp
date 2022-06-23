@@ -18,5 +18,16 @@
 	else 
 		{ 
 			out.println("Invalid password <a href='index.jsp'>try again</a> "); 
+%> 
+
+<style>
+   .fig {
+    text-align: center; /* Выравнивание по центру */ 
+   }
+  </style>
+  <p class="fig"><img src="https://rozmalovkin.com.ua/wp-content/uploads/image_7141.jpg"
+   width="400" alt="Cat"></p>
+
+<%
 } 
 %>

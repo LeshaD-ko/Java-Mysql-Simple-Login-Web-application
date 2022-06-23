@@ -17,6 +17,6 @@ You are not logged in<br/> <a href="index.jsp">Please Login</a>
    }
   </style>
   <p class="fig"><img src="https://rozmalovkin.com.ua/wp-content/uploads/image_7141.jpg" 
-   width="800" alt="Cat"></p>
+   width="400" alt="Cat"></p>
 
 <% } %>

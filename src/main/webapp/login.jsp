@@ -8,7 +8,7 @@
  String dbURL = System.getProperty("RDS_DB_URL");
 
 if (dbURL == null) {
-  dbURL = "jdbc:mysql://localhost:3306/sample";
+  dbURL = "jdbc:mysql://database-2.cupstqo4phgs.eu-central-1.rds.amazonaws.com:3306/sample";
 }
 
 System.out.println("SO:");

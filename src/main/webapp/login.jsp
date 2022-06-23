@@ -8,11 +8,8 @@
  String dbURL = System.getProperty("RDS_DB_URL");
 
 if (dbURL == null) {
-  dbURL = "jdbc:mysql://localhost:3306/sample";
+  dbURL = "localhost";
 }
-
-System.out.println("SO:");
-System.out.println(dbURL);
 
  Class.forName ("com.mysql.jdbc.Driver"); 
  Connection con = DriverManager.getConnection("jdbc:mysql://" + dbURL + ":3306/sample", "root", "Qwerty12345");

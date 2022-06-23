@@ -1,5 +1,5 @@
 <% if ((session.getAttribute("userName") == null) || (session.getAttribute("userName") == "")) { %> 
-Welcome <%=session.getAttribute("userid")%> <a href='logout.jsp'>Log out</a>
+<h1>Welcome <b><%=session.getAttribute("userid")%></b> </h1><a href='logout.jsp'>Log out</a>
 <style>
    .fig {
     text-align: center; /* Выравнивание по центру */ 

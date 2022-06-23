@@ -8,14 +8,14 @@
  String dbURL = System.getProperty("RDS_DB_URL");
 
 if (dbURL == null) {
-  dbURL = "jdbc:mysql://database-2.cupstqo4phgs.eu-central-1.rds.amazonaws.com:3306/sample";
+  dbURL = "jdbc:mysql://localhost:3306/sample";
 }
 
 System.out.println("SO:");
 System.out.println(dbURL);
 
  Class.forName ("com.mysql.jdbc.Driver"); 
- Connection con = DriverManager.getConnection(dbURL, "root", "Qwerty12345");
+ Connection con = DriverManager.getConnection("jdbc:mysql://" + dbURL + ":3306/sample", "root", "Qwerty12345");
  Statement st = con.createStatement(); 
  ResultSet rs; 
  rs = st.executeQuery("select * from USER where username='" + userName + "' and password='" + password + "'");

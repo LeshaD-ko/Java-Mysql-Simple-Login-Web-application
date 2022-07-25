@@ -8,11 +8,11 @@
  String dbURL = System.getProperty("RDS_DB_URL");
 
 if (dbURL == null) {
-  dbURL = "localhost";
+  dbURL = "localhost:3306";
 }
 
  Class.forName ("com.mysql.jdbc.Driver"); 
- Connection con = DriverManager.getConnection("jdbc:mysql://" + dbURL + ":3306/sample", "root", "Qwerty12345");
+ Connection con = DriverManager.getConnection("jdbc:mysql://" + dbURL + "/sample", "root", "Qwerty12345");
  Statement st = con.createStatement(); 
  ResultSet rs; 
  rs = st.executeQuery("select * from USER where username='" + userName + "' and password='" + password + "'");

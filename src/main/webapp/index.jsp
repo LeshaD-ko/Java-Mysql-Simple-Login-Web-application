@@ -6,7 +6,7 @@
     <title>Java Simple Login Web App</title>
   </head>
 
-  <body bgcolor="silver"> 
+  <body bgcolor="lightblue"> 
     <form method="post" action="login.jsp">
       <center>
         <table border="0" width="30%" cellpadding="3">
